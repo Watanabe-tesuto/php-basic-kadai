@@ -20,6 +20,9 @@ $vegetable = array(
 foreach ($vegetable as $key => $value) {
     echo $key . "：" . $value . "<br>"; // コロン（：）で区切り、改行する
 }
+
+
+
 ?>
 
 </body>
