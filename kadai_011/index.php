@@ -20,3 +20,8 @@ foreach ($items as $key => $value) {
     echo  $value['price'] . "<br>"; // コロン（：）で区切り、改行する
 }
 
+print_r($items[0]['name']. "<br>");
+
+print_r($items[1]['name']. "<br>");
+
+print_r($items[1]['price']. "<br>");
