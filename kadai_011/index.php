@@ -22,9 +22,14 @@ foreach ($items as $key => $value) {
 
 
 
-
-
-
-
+ $keys = array_keys($items);
  
+for($n = 0; $n < count($keys); $n++){
+    $index = $keys[$n];
+    echo $items[$index]['name']  . "<br>";
+}
 
+for($n = 0; $n < count($keys); $n++){
+    $index = $keys[$n];
+    echo $items[$index]['name'] . "は"  .$items[$index]['price'] . "円です。". "<br>";
+}
