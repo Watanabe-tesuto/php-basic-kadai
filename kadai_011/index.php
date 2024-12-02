@@ -33,3 +33,11 @@ for($n = 0; $n < count($keys); $n++){
     $index = $keys[$n];
     echo $items[$index]['name'] . "は"  .$items[$index]['price'] . "円です。". "<br>";
 }
+
+for( $i = 0; $i < count($items); $i++ ){
+	echo $items[$i]['name']  . "<br>";
+}
+
+for( $i = 0; $i < count($items); $i++ ){
+	echo $items[$i]['name'] . "は"  .$items[$i]['price'] . "円です。". "<br>";
+}
