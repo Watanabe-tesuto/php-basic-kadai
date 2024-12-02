@@ -17,7 +17,5 @@ for( $i = 0; $i < count($items); $i++ ){
     echo $items[$i]['name'] . "は"  .$items[$i]['price']*$tax02 . "円です。" . "<br>";
 }
 
-function taxIn($tax01,$tax02){
-return $tax ;
-}
+
 
