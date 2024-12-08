@@ -87,4 +87,4 @@ function taxIn($price,$tax02){
     return $price*$tax02;
 }
 echo  "カバンは " .taxIn (2000,$tax02). "円です。<br>";
-echo  "コートは " .taxInn (25600,$tax02). "円です。<br>";
+echo  "コートは " .taxIn (25600,$tax02). "円です。<br>";
